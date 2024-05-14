@@ -4,7 +4,7 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
 	compressHTML: false,
 	site: "https://kissflow.github.io/",
-	base: "/lcnc-sdk-js",
+	base: "",
 	integrations: [
 		starlight({
 			favicon: "/favicon.ico",
